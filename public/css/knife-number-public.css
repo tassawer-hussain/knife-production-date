@@ -1,0 +1,108 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.knife_submit {
+    padding: 4px 2px !important;
+
+    background-image: linear-gradient(to bottom, #f29641, #eb8c36, #e3822a, #dc771d, #d46d0e) !important;
+    border-bottom: none !important;
+    margin-top: 2px !important;
+    margin-left: 3px !important;
+    border: 1px solid #cd6200 !important;
+}
+.knife_submit:active { 
+    border-top: none !important;
+    color: #fff !important;
+    background-color: #fff !important;
+    border: 1px solid #cd6200 !important;
+}
+.pt_knife_locator {
+    margin-bottom: 15px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #beaf90;
+    width: 100%;
+    display: block;
+    float: left;    
+}
+.pt_knife_locator p {
+    color: #646464;
+    font-weight: 700;
+}
+
+.pt_knife_locator p:first-child {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    background-color: #655637;
+    height: auto;
+    background-size: contain;
+    background-position: center;
+    padding-top: 10px;
+    text-align: center;
+}
+.pt_knife_locator p#knife_result,
+.pt_knife_locator_footer p#knife_result_footer {
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+}
+.pt_knife_locator p#knife_result strong,
+.pt_knife_locator_footer p#knife_result_footer strong {
+    font-size: 24px;
+}
+#knife_result,
+#knife_result_footer {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    -webkit-transition: height .9s ease-in-out;
+    transition: height .9s ease-in-out;
+}
+#knife_result:empty,
+#knife_result_footer:empty {
+    height: 30px;
+}
+
+.knife_production_date {
+    width: 40% !important;
+    font-size: 20px !important;
+}
+
+.pt_knife_locator_footer p:first-child {
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #beaf90;
+    padding: 7px 7px 0px;
+    text-align: center;
+    width: 90%;
+    font-size: 21px;
+    line-height: 25px;
+}
+.pt_knife_locator_footer input[type="text"] {
+    width: 94% !important;
+    font-size: 15px !important;
+}
+
+#fetch_result_footer {
+    padding: 10px 20px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.knife-date-action {
+	display: flex;
+    width: 100%;
+    float: left;
+}
+.knife-date-action input[type="submit"] {
+	margin: 0 auto;
+}
